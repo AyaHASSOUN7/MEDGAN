@@ -1,0 +1,45 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+medgan_env/
+medgan_env_py39/
+
+# Packaging / build artifacts
+*.egg-info/
+.eggs/
+build/
+dist/
+*.spec
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Data and model artifacts
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Environment files
+.env
+.env.*
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
